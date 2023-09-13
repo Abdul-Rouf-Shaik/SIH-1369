@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.description img{
+    max-width:100%;
+} 
+
+.description .para{
+    font-size:30px;
+    position:absolute;
+    top:30%;
+    color:white;
+    left:10px;
+    padding: 15px;
+}
+
+/* footer{
+    background:#F4F4F4;
+    font-size:20px;
+    color:black;
+    padding:20px;
+    text-align:center;
+} */
+
+.footer {
+    background-color: rgb(209, 194, 194);
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer div {
+    margin: 0 4rem;
+}
+
+.footer .socials i {
+    font-size: 1.3rem;
+    color: black;
+}
+
+.footer .socials .fb:hover {
+    color: #1877F2;
+}
+
+.footer .socials .insta:hover {
+    color: rgb(175, 14, 215);
+}
+
+.footer .socials .twitter:hover {
+    color: #00acee;
+}

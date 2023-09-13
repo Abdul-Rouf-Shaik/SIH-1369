@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.details{
+    position:absolute;
+    font-size:15px;
+    margin-left:620px;
+    top:25%;
+    text-align:center;
+    font-weight: bold ;
+    color:white;
+}
+.image{
+    width:100%;
+    opacity:1;
+    height: 75vh
+}
+
+
+input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: #084cdf;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+
+input[type=file]::file-selector-button:hover {
+    background: #0d45a5;
+}
+
+/* .footer{
+    background:black;
+    font-size:20px;
+    color:white;
+    text-align:center;
+    padding:20px;
+} */
+
+.footer {
+    background-color: hsla(0, 0%, 0%, 0.902);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer div {
+    margin: 0 4rem;
+}
+
+.footer .socials i {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.footer .socials .fb:hover {
+    color: #1877F2;
+}
+
+.footer .socials .insta:hover {
+    color: rgb(175, 14, 215);
+}
+
+.footer .socials .twitter:hover {
+    color: #00acee;
+}

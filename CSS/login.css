@@ -1,0 +1,104 @@
+* {
+    border: 0;   
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav.navbar {
+    padding: 0;
+    height: 20vh;
+    background-image: url("../images/bann-2.jpg")!important;
+    background-size: cover;
+}
+
+/* nav.navbar .container-fluid{
+    background-image: url("../images/login-banner.jpg")!important;
+    background-size: cover;
+} */
+
+.login-page {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 5% 0;
+}
+
+.user-details {
+    padding: 20px;
+    /* border: 2px solid black; */
+}
+
+.login-page .user-details li {
+    list-style: none;
+}
+
+.login-page .user-details ul li a {
+    color: blue;
+    font-weight: 550;
+    font-size: 1rem;
+}
+
+.login-box .login-label h3 {
+    background: green;
+    color: white;
+    font-size: 600;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.login-box {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.login-label {
+    width: 80%;
+}
+
+.login {
+    width: 80%;
+    margin: auto;
+    /* position: absolute; */
+    /* left: 20%; */
+    border:  2px double orangered;
+    padding: 10px;
+}
+
+.login .forget-pass a {
+    color: blue;
+    font-weight: 600;
+}
+
+.footer {
+    background-color: hsla(0, 0%, 0%, 0.902);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer div {
+    margin: 0 4rem;
+}
+
+.footer .socials i {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.footer .socials .fb:hover {
+    color: #1877F2;
+}
+
+.footer .socials .insta:hover {
+    color: rgb(175, 14, 215);
+}
+
+.footer .socials .twitter:hover {
+    color: #00acee;
+}
